@@ -1,0 +1,33 @@
+body {
+  background: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+td,
+th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+td:hover {
+  transform: scale(1.03); 
+  opacity: 70%;
+}
+
+th:hover {
+  transform: scale(1.03); 
+  opacity: 70%;
+}
+
+.kepala-tabel {
+  background-color: #d4afb9;
+}
+.tabel {
+  border-collapse: collapse;
+  width: 100%;
+}
