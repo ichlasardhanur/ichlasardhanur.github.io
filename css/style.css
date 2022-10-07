@@ -11,14 +11,17 @@ th {
   border: 2px solid black;
   text-align: center;
   padding: 10px;
+ 
 }
 
 td:hover {
-  background-color: #daeaf6;
+  transform: scale(1.03); 
+  opacity: 70%;
 }
 
 th:hover {
-  background-color: #d1cfe2;
+  transform: scale(1.03); 
+  opacity: 70%;
 }
 
 .kepala-tabel {
