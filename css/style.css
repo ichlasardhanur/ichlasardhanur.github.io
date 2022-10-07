@@ -1,0 +1,46 @@
+body {
+  background: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+td,
+th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+td:hover {
+  background-color: #daeaf6;
+}
+
+th:hover {
+  background-color: #d1cfe2;
+}
+
+.kepala-tabel {
+  background-color: #d4afb9;
+}
+
+.tabel {
+  border-collapse: collapse;
+  width: 100%;
+}
+.ubah {
+  background-color: white;
+}
+
+.ubah:hover {
+  background-color: #7ec4cf;
+}
+
+.hapus {
+  background-color: white;
+}
+
+.hapus:hover {
+  background-color: #f79cb1;
+}
