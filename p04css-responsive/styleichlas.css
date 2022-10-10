@@ -9,17 +9,6 @@ body {
    margin: auto;
    padding: 10px;
 }
-h1 {
-	text-align: center;
-}
-
-h3 {
-	margin: 20px 0 auto;
-}
-
-ol {
-	margin: 10px 0 2s0px;
-}
 
 .formulir {
     width: 100%;
@@ -31,10 +20,18 @@ ol {
     border-radius: 10px;
 }
 
-.judulform {
+.pala{
     font-size: 27px;
     margin-top: 20px;
     text-align: center;
+}
+.rule{
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+}
+.rules{
+  color: red;
 }
 
 label {
@@ -98,26 +95,21 @@ button {
         box-sizing: border-box;
     }
 
-    h1 {
+    pala {
         font-size: 18px;
     }
 
-    h3 {
+    rule {
         font-size: 13px;
     }
 
-    ol li {
+    rules {
         font-size: 12px;
     }
 
     .formulir {
         padding: 15px;
-    }
-
-    .judulform {
-        font-size: 15px;
-    }
-
+  }
     label {
         font-size: 12px;
     }
