@@ -4,14 +4,48 @@
 }
 
 body {
-  font-family: "poppins";
+   font-family: "poppins";
    width: 95%;
    margin: auto;
    padding: 10px;
 }
+.first{
+  width: 100%;
+    margin: auto;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.second{
+  width: 100%;
+    margin: auto;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.three{
+  width: 100%;
+    margin: auto;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.bungkus-content{
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
 .pala {
   font-family: "poppins";
-  font-size: 30px;
+  font-size: 27px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 legend {
@@ -19,19 +53,19 @@ legend {
 }
 
 select:hover {
-  background-color: blanchedalmond;
+  background-color: grey;
 }
 
 option:hover {
-  background-color: blanchedalmond;
+  background-color: grey;
 }
 
 input:hover {
-  background-color: blanchedalmond;
+  background-color: grey;
 }
 
 textarea:hover {
-  background-color: blanchedalmond;
+  background-color: grey;
 }
 
 .rule {
@@ -82,11 +116,16 @@ button a {
         font-size: 12px;
     }
 
-    .post {
+    .first {
         padding: 15px;
     }
-
-    .judulform {
+    .second {
+        padding: 15px;
+    }
+    .three {
+        padding: 15px;
+    }
+    .pala {
         font-size: 15px;
     }
 
@@ -98,7 +137,7 @@ button a {
         font-size: 9px;
     }
 
-    .masukkan, select {
+    .input, select {
         padding: 5px 10px;
         font-size: 10px;
         margin: 5px 0 10px;
