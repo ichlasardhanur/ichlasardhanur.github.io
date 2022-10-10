@@ -1,104 +1,69 @@
-.content {
-    width: 95%;
-    margin: auto;
-    padding: 10px;
+@font-face {
+  font-family: "poppins";
+  src: url("Poppins-Medium.otf");
 }
 
-img {
-	width: 100%;
+body {
+  font-family: "poppins";
+   width: 95%;
+   margin: auto;
+   padding: 10px;
+}
+.pala {
+  font-family: "poppins";
+  font-size: 30px;
 }
 
-h1 {
-	text-align: center;
+legend {
+  color: red;
 }
 
-h3 {
-	margin: 20px 0 auto;
+select:hover {
+  background-color: blanchedalmond;
 }
 
-ol {
-	margin: 10px 0 2s0px;
+option:hover {
+  background-color: blanchedalmond;
 }
 
-.formulir {
-    width: 100%;
-    margin: auto;
-    background-color: #eee;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 10px;
+input:hover {
+  background-color: blanchedalmond;
 }
 
-.judulform {
-    font-size: 27px;
-    margin-top: 20px;
-    text-align: center;
+textarea:hover {
+  background-color: blanchedalmond;
 }
 
-label {
-    font-size: 17px;
-    font-weight: bold;
+.rule {
+  margin: 0px 0px 0px 1rem;
+  font-size: 25px;
+  color: red;
 }
 
-.masukkan, select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0 20px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 12px;
+.image-headers {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-headers img {
+  width: 100%;
+  height: auto;
 }
 
-select {
-    background-color: #fff;
-    border: none;
-    font-size: 12px;
-    border: 1px solid #ccc;
+.rules {
+  padding-bottom: 1rem;
+  color: red;
+  margin: auto;
 }
 
-input[type=date] {
-    background-color: #fff;
-    border: none;
-    font-size: 12px;
+button a {
+  color: black;
+  font-family: "poppins";
+  text-decoration: none;
 }
-
-input[type=file] {
-    background-color: #fff;
-    border: none;
-    font-size: 12px;
-}
-
-button {
-    width: 100%;
-    color: white;
-    padding: 14px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px 0;
-    transition: 0.2s;
-}
-
-.kembali {
-	background-color: red;
-}
-
-.kembali:hover {
-	background-color: darkred;
-}
-
-.submit {
-	background-color: blue;
-	margin-top: 10px;
-}
-
-.submit:hover {
-	background-color: darkblue;
-}
-
 @media only screen and (max-width: 768px) {
 
     body {
@@ -117,7 +82,7 @@ button {
         font-size: 12px;
     }
 
-    .formulir {
+    .post {
         padding: 15px;
     }
 
