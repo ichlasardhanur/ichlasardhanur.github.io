@@ -1,0 +1,84 @@
+body{
+	background-color: #eee;
+}
+.content{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+}
+
+img{
+    width: 8cm;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px gray; 
+    margin: 10px;
+    padding: 5px;
+    background: white;
+    transition: 0.25; opacity: 75%;
+  }
+  img:hover{
+    transform: scale(1.2); 
+    opacity: 100%; 
+    box-shadow: 1px 1px 6px gray;
+  }
+h1{
+  margin: auto;
+  padding: 10px;
+  color: #d4afb9;
+  text-align: center;
+}
+h1:hover{
+  transform: scale(1.2);  
+  opacity: 100%;
+}
+h2{
+	margin: auto;
+}
+h2:hover{
+  transform: scale(1.2);  
+  opacity: 100%;
+}
+
+p{
+	margin-bottom: auto;
+}
+
+.navigasi{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #d4afb9;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu{
+	padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu:hover{
+	background-color: #cbaacb;
+}
+
+.aktif{
+	background-color: #97c1a9;
+}
+
+.beranda{
+	background-color: white;
+	padding: 10px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.isi{
+	display: none;
+	background-color: white;
+	padding: 10px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
