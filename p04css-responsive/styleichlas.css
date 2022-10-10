@@ -1,204 +1,153 @@
-@font-face {
-  font-family: "poppins";
-  src: url("Poppins-Medium.otf");
-}
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
+.content {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+img {
+	width: 100%;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
+h1 {
+	text-align: center;
 }
 
-html {
-  font-family: "Lucida Sans", sans-serif;
+h3 {
+	margin: 20px 0 auto;
 }
 
-.header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
+ol {
+	margin: 10px 0 2s0px;
 }
 
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.formulir {
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+.judulform {
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.menu li:hover {
-  background-color: #0099cc;
+label {
+    font-size: 17px;
+    font-weight: bold;
 }
 
-.aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+.masukkan, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
 }
 
-.footer {
-  background-color: #0099cc;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  padding: 15px;
+select {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    border: 1px solid #ccc;
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+input[type=date] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
 }
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>Chania</h1>
-</div>
-
-<div class="row">
-  <div class="col-3 col-s-3 menu">
-    <ul>
-      <li>The Flight</li>
-      <li>The City</li>
-      <li>The Island</li>
-      <li>The Food</li>
-    </ul>
-  </div>
-
-  <div class="col-6 col-s-9">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-  </div>
-
-  <div class="col-3 col-s-12">
-    <div class="aside">
-      <h2>What?</h2>
-      <p>Chania is a city on the island of Crete.</p>
-      <h2>Where?</h2>
-      <p>Crete is a Greek island in the Mediterranean Sea.</p>
-      <h2>How?</h2>
-      <p>You can reach Chania airport from all over Europe.</p>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
-</div>
-
-</body>
-</html>
-
-body {
-  font-family: "poppins";
-}
-.pala {
-  font-family: "poppins";
-  font-size: 30px;
+input[type=file] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
 }
 
-legend {
-  color: red;
+button {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.2s;
 }
 
-select:hover {
-  background-color: blanchedalmond;
+.kembali {
+	background-color: red;
 }
 
-option:hover {
-  background-color: blanchedalmond;
+.kembali:hover {
+	background-color: darkred;
 }
 
-input:hover {
-  background-color: blanchedalmond;
+.submit {
+	background-color: blue;
+	margin-top: 10px;
 }
 
-textarea:hover {
-  background-color: blanchedalmond;
+.submit:hover {
+	background-color: darkblue;
 }
 
-.rule {
-  margin: 0px 0px 0px 1rem;
-  font-size: 25px;
-  color: red;
-}
+@media only screen and (max-width: 768px) {
 
-.image-headers {
-  width: 100%;
-  height: auto;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image-headers img {
-  width: 100%;
-  height: auto;
-}
+    body {
+        box-sizing: border-box;
+    }
 
-.rules {
-  padding-bottom: 1rem;
-  color: red;
-  margin: auto;
-}
+    h1 {
+        font-size: 18px;
+    }
 
-button a {
-  color: black;
-  font-family: "poppins";
-  text-decoration: none;
+    h3 {
+        font-size: 13px;
+    }
+
+    ol li {
+        font-size: 12px;
+    }
+
+    .formulir {
+        padding: 15px;
+    }
+
+    .judulform {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    small {
+        font-size: 9px;
+    }
+
+    .masukkan, select {
+        padding: 5px 10px;
+        font-size: 10px;
+        margin: 5px 0 10px;
+    }
+
+    input[type=file] {
+        font-size: 10px;
+    }
+
+    button {
+        padding: 8px 10px;
+        margin: 3px 0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
 }
