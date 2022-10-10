@@ -9,8 +9,20 @@ body {
    margin: auto;
    padding: 10px;
 }
-.first{
-  width: 100%;
+h1 {
+	text-align: center;
+}
+
+h3 {
+	margin: 20px 0 auto;
+}
+
+ol {
+	margin: 10px 0 2s0px;
+}
+
+.formulir {
+    width: 100%;
     margin: auto;
     background-color: #eee;
     padding: 20px;
@@ -18,86 +30,68 @@ body {
     margin-top: 20px;
     border-radius: 10px;
 }
-.second{
-  width: 100%;
-    margin: auto;
-    background-color: #eee;
-    padding: 20px;
-    box-sizing: border-box;
+
+.judulform {
+    font-size: 27px;
     margin-top: 20px;
-    border-radius: 10px;
+    text-align: center;
 }
-.three{
-  width: 100%;
-    margin: auto;
-    background-color: #eee;
-    padding: 20px;
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.masukkan, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-.bungkus-content{
-  width: 95%;
-  margin: auto;
-  padding: 10px;
-}
-.pala {
-  font-family: "poppins";
-  font-size: 27px;
-  margin-top: 20px;
-  text-align: center;
+    font-size: 12px;
 }
 
-legend {
-  color: red;
+select {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    border: 1px solid #ccc;
 }
 
-select:hover {
-  background-color: grey;
+input[type=date] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
 }
 
-option:hover {
-  background-color: grey;
+input[type=file] {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
 }
 
-input:hover {
-  background-color: grey;
+button {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.2s;
 }
 
-textarea:hover {
-  background-color: grey;
+.submit {
+	background-color: blue;
+	margin-top: 10px;
 }
 
-.rule {
-  margin: 0px 0px 0px 1rem;
-  font-size: 25px;
-  color: red;
+.submit:hover {
+	background-color: green;
 }
 
-.image-headers {
-  width: 100%;
-  height: auto;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image-headers img {
-  width: 100%;
-  height: auto;
-}
-
-.rules {
-  padding-bottom: 1rem;
-  color: red;
-  margin: auto;
-}
-
-button a {
-  color: black;
-  font-family: "poppins";
-  text-decoration: none;
-}
 @media only screen and (max-width: 768px) {
 
     body {
@@ -116,16 +110,11 @@ button a {
         font-size: 12px;
     }
 
-    .first {
+    .formulir {
         padding: 15px;
     }
-    .second {
-        padding: 15px;
-    }
-    .three {
-        padding: 15px;
-    }
-    .pala {
+
+    .judulform {
         font-size: 15px;
     }
 
@@ -137,7 +126,7 @@ button a {
         font-size: 9px;
     }
 
-    .input, select {
+    .masukkan, select {
         padding: 5px 10px;
         font-size: 10px;
         margin: 5px 0 10px;
