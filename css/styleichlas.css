@@ -1,16 +1,7 @@
 @font-face {
-    font-family: "AtypText-Semibold";
-    src: url(font/AtypText-Semibold.ttf);
-}
-@font-face {
     font-family: "CBGBFont";
     src: url(font/CBGBFont.ttf);
 }
-
-@font-face {
-    font-family: "Camar";
-    src: url(font/Camar.otf);
-  }
 @font-face {
     font-family: "Monaco";
     src: url(font/Monaco.ttf);
