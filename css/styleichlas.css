@@ -1,10 +1,10 @@
 @font-face {
     font-family: "CBGBFont";
-    src: url(font/CBGBFont.ttf);
+    src: url(CBGBFont.ttf);
 }
 @font-face {
     font-family: "Monaco";
-    src: url(font/Monaco.ttf);
+    src: url(Monaco.ttf);
   }
 body{
 	background-color: lightgrey;
@@ -35,10 +35,6 @@ h1{
   color: black;
   text-align: left;
   font-family: "Monaco";
-}
-h1:hover{
-  transform: scale(1.2);  
-  opacity: 100%;
 }
 h2{
 	margin: auto;
@@ -87,4 +83,29 @@ p{
 	background-color: lightgrey;
 	padding: 50px;
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+
+    body {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+    p  {
+        font-size: 11px;
+    }
+    img {
+        width: 400px;
+    }
+    navigasi{
+    width: 750px;
+ }      
+        
+
 }
