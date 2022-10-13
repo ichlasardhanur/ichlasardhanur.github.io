@@ -1,3 +1,5 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 @font-face {
     font-family: "AtypText-Semibold";
     src: url(font/AtypText-Semibold.ttf);
@@ -110,6 +112,67 @@ li:hover:after{
 	padding: 50px;
   text-align: center;
 }
+a {
+            text-decoration: none;
+        }
+        
+ul {
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ display: flex;
+ padding: 0;
+    }
+        
+        ul div {
+            width: 50px;
+            height: 5px;
+            background-color: #9581F4;
+            margin: auto;
+        }
+        
+        ul li {
+            position: relative;
+            list-style: none;
+            width: 70px;
+            height: 70px;
+            margin: 0 20px;
+        }
+        
+        ul li span {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            display: flex !important;
+            background: black;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 30px !important;
+            transition: 1.5s ease-out;
+        }
+        
+        ul li:hover span {
+            transition: .3s;
+        }
+        
+        ul li:nth-child(2):hover span {
+            background: #2C3456 !important;
+        }
+        
+        ul li:nth-child(3):hover span {
+            background: #6A9AEE !important;
+        }
+        
+        ul li:nth-child(4):hover span {
+            background: #CC296C !important;
+        }
+        
+        ul li:nth-child(5):hover span {
+            background: #2C3456 !important;
+        }
+}
 @media only screen and (max-width: 768px) {
 
     body {
@@ -131,7 +194,7 @@ li:hover:after{
 }
     navigasi{
 width: 750px;
- }      
+ } 
         
-
-}
+        
+        
