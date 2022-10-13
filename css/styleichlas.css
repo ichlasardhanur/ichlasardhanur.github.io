@@ -162,12 +162,4 @@ ul li:hover{
             height: auto;
            
         }
-        
-        .title {
-            font-size: 30px;
-            font-family: sans-serif;
-            text-align: left;
-            margins: 0px;
-            padding: 0px;
-        }
 }
