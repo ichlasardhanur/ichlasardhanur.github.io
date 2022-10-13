@@ -129,8 +129,8 @@ ul li:hover{
 }
 @media only screen and (max-width: 768px) {
 
-    body {
-        box-sizing: border-box;
+       body {
+        width: 768px;
     }
 
     h1 {
@@ -147,9 +147,31 @@ ul li:hover{
         width: 300px;
 }
    .navigasi{
-        width: 750px;
-} 
+        justify-content: left;
+        text-align: left;
+    }
+    .menu{
+        justify-content: left;
+        text-align: left;
+    }
+
+.beranda {
+            position: relative;
+            width: 720;
+            height: 1280;
+        }
+        
+        .beranda img {
+            width: 350px;
+            height: auto;
+           
+        }
+        
+        .title {
+            font-size: 30px;
+            font-family: sans-serif;
+            text-align: left;
+            margins: 0px;
+            padding: 0px;
+        }
 }
-        
-        
-        
