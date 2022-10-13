@@ -80,7 +80,7 @@ p{
   flex-direction: row;
   list-style: none;
   justify-content: right;
-  font-family: "Camar";
+  font-family: "Serif";
 }
 
 .menu{
@@ -127,11 +127,7 @@ ul li:hover{
             font-size: 21px !important;
             transition: 1.5s ease-out;
 }
-@media only screen and (max-width: 768px) {
-
-       body {
-        width: 768px;
-    }
+@media only screen and (max-width: 768px){
 
     h1 {
         font-size: 18px;
