@@ -3,6 +3,7 @@
 
 body{
     background-image: url(background.jpg);
+    background-color: black;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,7 +146,7 @@ ul li:hover{
         font-size: 11px;
 }
    img {
-        width: 1500px;
+        width: 150px;
 }
 	.title {
             inset: 0;
@@ -153,7 +154,6 @@ ul li:hover{
             place-items: center;
             opacity: 1;
             color: white;
-            font-weight: 900;
             font-size: 150px;
             font-family: sans-serif;
             text-align: center
