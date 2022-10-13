@@ -99,9 +99,9 @@ p{
 
 .isi{
 	background-color: black;
-    opacity: 90%;
+        opacity: 90%;
 	padding: 5px;
-    margin: 20px;
+        margin: 20px;
 }
         
 ul {
@@ -145,8 +145,22 @@ ul li:hover{
         font-size: 11px;
 }
    img {
-        width: 300px;
+        width: 1500px;
 }
+	.title {
+            inset: 0;
+            display: grid;
+            place-items: center;
+            opacity: 1;
+            color: white;
+            font-weight: 900;
+            font-size: 150px;
+            font-family: sans-serif;
+            text-align: center
+            }
+	.beranda{
+            margin-top:200px; 
+            }
     navigasi{
 width: 750px;
  } 
