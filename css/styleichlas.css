@@ -51,6 +51,8 @@ h3{
   font-style: bold;
    padding: 10px;
    color: white;
+   font-family: sans-serif;
+   text-align: center;
 }
 h1{
   margin: auto;
@@ -60,14 +62,15 @@ h1{
 
 }
 h2{
-    margin: auto;
+  margin: auto;
   color: white;
   padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
 
 }
 
 p{
-    margin-bottom: auto;
   color: white;
 }
 
