@@ -110,7 +110,7 @@ ul {
  position: right;
  display: flex;
  justify-content: right;
- padding: 0px;
+ padding-right: 11px;
 }
 ul li:hover{
   opacity : 50%;
