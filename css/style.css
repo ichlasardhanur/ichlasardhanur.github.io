@@ -47,3 +47,19 @@ th:hover {
 .hapus:hover {
   background-color: #f79cb1;
 }
+.tombol-back-bestie {
+  margin-top: 40px;
+}
+
+.tombol-back-bestie a {
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  padding: 7px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-bestie a:hover {
+  background-color: red;
+}
