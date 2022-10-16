@@ -132,7 +132,7 @@ ul li:hover{
 @media only screen and (max-width: 768px) {
 
     body {
-        box-sizing: border-box;
+        
     }
 
     h1 {
@@ -154,12 +154,9 @@ ul li:hover{
             place-items: center;
             opacity: 1;
             color: white;
-            font-size: 150px;
+            font-size: 50px;
             font-family: sans-serif;
             text-align: center
-            }
-	.beranda{
-            margin-top:200px; 
             }
     navigasi{
 width: 750px;
