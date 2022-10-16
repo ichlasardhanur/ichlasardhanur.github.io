@@ -1,6 +1,5 @@
-
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-@import url('//cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css');
+
 body{
     background-image: url(background.jpg);
     background-color: black;
@@ -83,7 +82,7 @@ p{
 }
 
 .beranda{
-   margin-top: 500px; 
+   margin-top: 400px; 
 }
 .title {
             padding-right: 5px;
@@ -110,7 +109,7 @@ ul {
  position: right;
  display: flex;
  justify-content: right;
- padding-right: 11px;
+ padding: 0px;
 }
 ul li:hover{
   opacity : 50%;
@@ -132,7 +131,9 @@ ul li:hover{
 @media only screen and (max-width: 768px) {
 
     body {
-        
+        background-image: url(background2.jpg);
+        background-color: black;
+        height: 100%;
     }
 
     h1 {
@@ -157,6 +158,9 @@ ul li:hover{
             font-size: 50px;
             font-family: sans-serif;
             text-align: center
+            }
+	.beranda{
+            margin-top:200px; 
             }
     navigasi{
 width: 750px;
