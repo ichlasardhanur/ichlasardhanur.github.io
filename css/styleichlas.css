@@ -15,6 +15,12 @@ body{
 	margin-left: auto;
 	width: auto;
 }
+.garis-tugas{
+	width: auto;
+  padding : none;
+	display: flex;
+	border-bottom: 1px solid white;
+}
 
 img{
     width: 5cm;
@@ -34,6 +40,7 @@ h3{
    padding: 10px;
    color: white;
    font-family: sans-serif;
+   text-align: left;
 }
 h1{
   margin: auto;
@@ -50,12 +57,15 @@ h2{
   text-align: center;
 
 }
-
+.me{
+  text-align: center;
+}
 p{
 	margin-bottom: 20px;
     padding: 5px;
     color: white;
 }
+
 
 .navigasi{
   width: auto;
@@ -128,6 +138,54 @@ ul li:hover{
             font-size: 21px !important;
             transition: 1.5s ease-out;
 }
+.nav-tugas{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: none;
+  justify-content: right;
+  padding: 1px;
+}
+.tugas{
+   margin: 7px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 15px;
+    justify-content: right;
+}
+.tugas:hover{
+  opacity: 50%;
+}
+.tombol-open {
+  margin-top: 5px;
+  margin-bottom: 18px;
+  justify-content: auto;
+  text-align: center;
+}
+
+.tombol-open a {
+  background-color: red;
+  font-family: Times New Roman;
+  font-size: 18px;
+  color: white;
+  padding: 5px 35px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.tombol-open a:hover {
+  opacity : 70%;
+}
+.text{
+  margin: 7px;
+  font-size:18px!important;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
 
     body {
