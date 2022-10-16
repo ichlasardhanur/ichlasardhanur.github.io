@@ -1,5 +1,5 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
+@import url('//cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css');
 body{
     background-image: url(background.jpg);
     background-color: black;
@@ -109,7 +109,7 @@ ul {
  position: right;
  display: flex;
  justify-content: right;
- padding: 0px;
+ padding-right: 11px;
 }
 ul li:hover{
   opacity : 50%;
@@ -162,6 +162,6 @@ ul li:hover{
 	.beranda{
             margin-top:200px; 
             }
-    navigasi{
-width: 750px;
+          navigasi{
+             width: 750px;
  } 
