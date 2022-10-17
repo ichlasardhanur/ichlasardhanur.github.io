@@ -17,7 +17,7 @@ body{
 }
 .garis-tugas{
 	width: auto;
-  padding : none;
+        padding : none;
 	display: flex;
 	border-bottom: 1px solid white;
 }
@@ -112,6 +112,7 @@ p{
         opacity: 90%;
 	padding: 5px;
         margin: 20px;
+        border-radius:10;
 }
         
 ul {
